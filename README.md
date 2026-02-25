@@ -47,4 +47,5 @@ I’m using this project to explore React fundamentals, including components, JS
    ```
 
 4. Open in browser
+
    Follow the URL shown in the terminal (usually http://localhost:5173/)
