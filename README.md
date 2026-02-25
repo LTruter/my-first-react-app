@@ -28,7 +28,7 @@ I’m using this project to explore React fundamentals, including components, JS
 1. Clone this repo
 
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/LTruter/my-first-react-app.git
 
    ```
 
