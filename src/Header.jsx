@@ -1,3 +1,6 @@
+// Import the image into a variable
+import reactImg from "./assets/react-core-concepts.png";
+
 const reactDescriptions = ["Fundamental", "Crucial", "Core"];
 
 // function to produce a random number
