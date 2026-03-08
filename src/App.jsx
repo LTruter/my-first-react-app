@@ -11,14 +11,15 @@ function App() {
         <section id="core-concepts">
           <h2>Core Concepts</h2>
           <ul>
-            <CoreConcept
-              title="Components"
-              description="The core UI building block."
-              image={componentsImg}
-            />
-            <CoreConcept />
-            <CoreConcept />
-            <CoreConcept />
+            {CORE_CONCEPTS.map((CORE_CONCEPT) => {
+              return (
+                <CoreConcept
+                  title={CORE_CONCEPT.title}
+                  description={CORE_CONCEPT.description}
+                  image={CORE_CONCEPT.image}
+                />
+              );
+            })}
           </ul>
         </section>
       </main>
